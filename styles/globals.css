@@ -1,0 +1,148 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #203040;
+}
+
+.navbar a { 
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.main {
+  min-height: 80vh;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.navbarButton {
+  color: #ffffff;
+  text-transform: initial;
+}
+
+.transparentBackgroud {
+  background-color: transparent;
+}
+
+.error {
+  color: #f04040,
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.reviewForm {
+  min-width: 800px;
+  width: 100%;
+}
+
+.reviewItem {
+  margin-right: 1rem;
+  border-right: 1px #808080 solid;
+  padding-right: 1rem;
+}
+
+.toolbar {
+  justify-content: space-between;
+}
+
+.menuButton { padding: 0; }
+
+
+.mt1 { margin-top: 1rem; }
+
+.searchSection {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .searchSection {
+    display: flex;
+  }
+}
+
+.searchForm {
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.searchInput {
+  padding-left: 5px;
+  color: #000000;
+}
+
+.searchInput::placeholder {
+  color: #606060;
+}
+
+.iconButton {
+  background-color: #f8c040;
+  padding: 5px;
+  border-radius: 0 5px 5px 0;
+}
+
+.iconButton a {
+  color: #000000;
+}
+
+.sort {
+  margin-right: 5px;
+}
+
+.fullContainer {
+  height: 100vh;
+}
+
+.mapInputBox {
+  position: absolute;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: 10px auto;
+  width: 300px;
+  height: 40px;
+}
+
+.mapInputBox input{
+  width: 250px;
+}
