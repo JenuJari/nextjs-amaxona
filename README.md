@@ -1,4 +1,4 @@
-# Next Amazona
+# Next Amaxona
 Build ECommerce Website Like Amazon by Next.js
  - Source Code    :  https://github.com/JenuJari/nextjs-amaxona
 
@@ -21,3 +21,32 @@ $ npm run dev
 $ Open http://localhost:3000/api/seed
 $ Open http://localhost:3000
 ```
+---
+
+## Screenshots
+
+Followings are screnshots of ecommerce app various pages
+
+- Dashbord
+![Dashbord](./snaps/home.png)
+
+- Product
+![Product](./snaps/productpage.png)
+
+- Sidebar
+![Sidebar](./snaps/sidebar.png)
+
+- Filter and Search
+![Filter](./snaps/filter.png)
+
+- Cart
+![Cart](./snaps/cart-page.png)
+
+- Checkout
+![Checkout](./snaps/checkout.png)
+
+- Order Success
+![Order Success](./snaps/order-success.png)
+
+- Profile and order history
+![Profile and order history](./snaps/profile-orderhistory.png)
